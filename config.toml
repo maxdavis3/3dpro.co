@@ -1,0 +1,183 @@
+baseURL = "https://3dpro.co/"
+languageCode = "en-us"
+title = "3D Pro"
+theme = "printwire"
+
+[params]
+tagline       = "Professional-grade 3D printing — production quality metal and polymer parts, DfAM consulting, and engineering support for demanding industrial applications."
+description   = "3D Pro is the premium additive manufacturing service for professionals — delivering production-grade DMLS, SLS, and high-performance polymer parts with full engineering support, DfAM consulting, and material certification."
+keywords      = "professional 3D printing, industrial AM service, production 3D printing, DfAM consulting, DMLS service, engineering 3D printing, certified AM parts"
+logoEmoji     = "🏆"
+contactEmail  = "maxdavisgroup@gmail.com"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#2563eb"
+colorPrimaryDark  = "#1d4ed8"
+colorPrimaryLight = "#60a5fa"
+colorBgDark       = "#020610"
+colorBgSection    = "#040a18"
+colorBgCard       = "#070f22"
+colorBgCardHover  = "#0b152e"
+
+fontPrimary   = "Inter"
+fontSecondary = "Source+Sans+3"
+
+newsFallbackImages = ["https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=80"]
+
+heroEyebrow  = "Professional Additive Manufacturing"
+heroTitle    = "<em>3D Pro</em>"
+heroSubtitle = "Professional-grade 3D printing — production quality metal and polymer parts, DfAM consulting, and engineering support for demanding industrial applications."
+heroCta1Text = "Explore Services"
+heroCta1URL  = "/services/"
+heroCta2Text = "Get a Quote"
+heroCta2URL  = "/contact/"
+heroImage    = "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=80"
+
+overviewTitle   = "Production AM for Professionals"
+overviewText    = "Not a consumer printing service — 3D Pro serves engineers and procurement officers who need certified materials, full traceability, and parts that perform in demanding environments."
+overviewBtnText = "View Services"
+overviewBtnURL  = "/services/"
+
+applicationsTitle = "Industries We Serve"
+servicesTitle    = "3D Pro Services"
+servicesSubtitle = "Professional-grade 3D printing — production quality metal and polymer parts, DfAM consulting, and engineering support for demanding industrial applications."
+clusterTitle = "Related 3D Printing Resources"
+newsletterTitle = "Industry Updates to Your Inbox"
+newsletterText  = "Research breakthroughs and industry news — delivered monthly."
+ctaTitle   = "Start Your Project"
+ctaText    = "Professional-grade 3D printing — production quality metal and polymer parts, DfAM consulting, and engineering support for demanding industrial applications."
+ctaBtnText = "Get in Touch"
+ctaBtnURL  = "/contact/"
+
+[[params.stats]]
+count  = 99.5
+suffix = "%"
+label  = "Part Density (DMLS Metal)"
+
+[[params.stats]]
+count  = 48
+suffix = "hr"
+label  = "Professional Lead Time"
+
+[[params.stats]]
+count  = 100
+suffix = "%"
+label  = "Material Certification"
+
+[[params.stats]]
+count  = 20
+suffix = "yr"
+label  = "Combined AM Experience"
+
+
+[[params.applications]]
+title       = "Aerospace Components"
+description = "Flight-critical metal parts with material traceability, first article inspection, and AS9100 documentation."
+image       = "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=80"
+
+[[params.applications]]
+title       = "Medical Devices"
+description = "ISO 13485 compliant AM parts for Class I-III medical devices and surgical instruments."
+image       = "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=80"
+
+[[params.applications]]
+title       = "Industrial Production"
+description = "Certified production parts replacing conventional machining for low-volume, high-complexity components."
+image       = "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=80"
+
+[[params.applications]]
+title       = "Advanced Research"
+description = "Research-grade parts for national labs, universities, and corporate R&D programmes."
+image       = "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=80"
+
+
+[[params.servicesPreview]]
+icon        = "🏆"
+title       = "Certified Metal Printing"
+description = "DMLS in Ti6Al4V, 316L, Inconel 718, and AlSi10Mg — full material certification, density testing, and mechanical data."
+
+[[params.servicesPreview]]
+icon        = "🔬"
+title       = "DfAM Engineering"
+description = "Design for additive manufacturing — topology optimisation, support strategy, and process parameter selection."
+
+[[params.servicesPreview]]
+icon        = "◎"
+title       = "Quality & Inspection"
+description = "First article inspection, CMM measurement, CT scanning, and full dimensional report with every order."
+
+[[params.servicesPreview]]
+icon        = "⚙️"
+title       = "Production AM Partner"
+description = "Long-term production AM partnership — volume pricing, dedicated process ownership, and supply chain integration."
+
+
+[[params.services]]
+name        = "Certified Metal Printing"
+description = "DMLS in Ti6Al4V, 316L, Inconel 718, and AlSi10Mg — full material certification, density testing, and mechanical data."
+icon        = "🏆"
+image       = "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
+
+[[params.services]]
+name        = "DfAM Engineering"
+description = "Design for additive manufacturing — topology optimisation, support strategy, and process parameter selection."
+icon        = "🔬"
+image       = "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
+
+[[params.services]]
+name        = "Quality & Inspection"
+description = "First article inspection, CMM measurement, CT scanning, and full dimensional report with every order."
+icon        = "◎"
+image       = "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
+
+[[params.services]]
+name        = "Production AM Partner"
+description = "Long-term production AM partnership — volume pricing, dedicated process ownership, and supply chain integration."
+icon        = "⚙️"
+image       = "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
+
+
+[[params.clusterLinks]]
+name        = "sendcutship.com"
+url         = "https://sendcutship.com"
+description = "Custom manufacturing flagship"
+
+[[params.clusterLinks]]
+name        = "dmls3d.com"
+url         = "https://dmls3d.com"
+description = "Metal 3D printing"
+
+[[params.clusterLinks]]
+name        = "3dprintmetal.com"
+url         = "https://3dprintmetal.com"
+description = "Metal 3D printing"
+
+[[params.clusterLinks]]
+name        = "metalpowder.co"
+url         = "https://metalpowder.co"
+description = "Metal powder for AM"
+
+[[menu.main]]
+name = "Home"
+url  = "/"
+weight = 1
+[[menu.main]]
+name = "About"
+url  = "/about/"
+weight = 2
+[[menu.main]]
+name = "Articles"
+url  = "/articles/"
+weight = 3
+[[menu.main]]
+name = "Services"
+url  = "/services/"
+weight = 4
+[[menu.main]]
+name = "Contact"
+url  = "/contact/"
+weight = 5
+[[menu.main]]
+name = "Advertise"
+url  = "/advertise/"
+weight = 6
